@@ -40,6 +40,9 @@ header .nav-menu ul li a {
     text-decoration: none;
     color: #545454;
 }
+header .nav-menu ul li a:hover{
+  color: #5BDEFF;
+}
 header .nav-menu ul li span {
     border-radius: 15px;
     background: #5BDEFF;
@@ -48,8 +51,6 @@ header .nav-menu ul li span {
     font-size: 11px;
 }
 header .sign_in {
-    display: flex;
-    align-self: center;
     display: inline-block;
     border-radius: 15px;
     padding: 5px 15px;
