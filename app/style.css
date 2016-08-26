@@ -1,18 +1,26 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
 body{
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+header{
+  padding: 15px 0px;
+}
 .brand {
     color: #545454;
-    width: 40%;
+    width: 30%;
     display: inline-block;
     text-align: center;
     font-size: 25px;
-        vertical-align: text-bottom;
+    vertical-align: text-bottom;
+    font-weight: bold;
 }
 .nav-menu {
     color: #545454;
-    width: 59%;
+    width: 69%;
     display: inline-block;
     text-align: center;
     font-size: 15px;
@@ -24,7 +32,7 @@ body{
 }
 .nav-menu ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 20px;
     cursor: pointer;
 }
 .nav-menu ul li a {
@@ -38,6 +46,17 @@ body{
     padding: 1px 4px;
     color: white;
     font-size: 11px;
+}
+#sign_in {
+  display: flex;
+  align-self: center;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: lighter;
+  border: 1px solid #545454;
+
 }
 
 .content {
@@ -70,4 +89,30 @@ body{
 .block{
   width: 33%;
   display: inline-block;
+}
+footer{
+  background-color: #545454;
+  padding: 25px 0px;
+}
+.rights{
+  width: 40%;
+  display: inline-block;
+  color: white;
+  text-align: right;
+  vertical-align: middle;
+}
+#received{
+  font-weight: normal;
+  color: #989595;
+}
+.cards{
+  width: 59%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.cards img{
+  margin: 5px;
+  border-radius: 3px;
+
 }
