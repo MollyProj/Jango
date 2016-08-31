@@ -89,7 +89,7 @@ header .sign_in {
 
 .main_photo {
     position: relative;
-    width: 466.19px;
+    width: 100%;
     height: 470px;
     overflow: hidden;
 }
@@ -112,7 +112,7 @@ header .sign_in {
 }
 
 .imgs img {
-    width: 108px;
+    width: 23%;
     margin-right: 5px;
     margin-bottom: 8px;
 }
@@ -177,6 +177,7 @@ header .sign_in {
     padding-left: 20px;
     color: #E45E5E;
     display: inline-block;
+    vertical-align: inherit;
 }
 
 .description_product h3 {
@@ -217,7 +218,7 @@ button:focus {
     outline: none;
 }
 
-.add-information {
+.menu_add-information {
   color: #5E5E5E;
   width: 100%;
   display: inline-block;
@@ -226,29 +227,68 @@ button:focus {
   font-weight: bold;;
   margin: 50px 0px;
 }
-.add-information ul li {
+.menu_add-information ul li {
     display: inline;
     margin: 0 20px;
     cursor: pointer;
 }
 
-.add-information ul li a {
+.menu_add-information ul li a {
     text-decoration: none;
     color: #3E3E3E;
     transition: all 0.25s;
 }
+.menu_add-information .line{
+  margin: 20px 35px;
+  padding: 20px;
+}
+.menu_add-information .line a:hover {
+    color:#E45E5E;
+    border-top: 2px solid #E45E5E;
+    height: 20px;
+    padding: 20px 35px;
+    margin-top: 20px;
 
-.add-information ul li a:hover {
+}
+.menu_add-information ul li a:active{
     color:#E45E5E;
     border-top: 2px solid #E45E5E;
     height: 20px;
     margin-top: 20px;
     padding-top: 20px;
 }
-.add-information ul li a:active{
-    color:#E45E5E;
-    border-top: 2px solid #E45E5E;
-    height: 20px;
-    margin-top: 20px;
-    padding-top: 20px;
+.description {
+  text-align: center;
+}
+.description p{
+  padding-top: 10px;
+    color: #5E5E5E;
+}
+footer {
+    background-color: #545454;
+    padding: 25px 0px;
+    
+}
+footer .rights {
+    width: 40%;
+    display: inline-block;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+}
+footer .received {
+    font-weight: normal;
+    color: #989595;
+}
+footer .cards {
+    width: 59%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+footer .cards img {
+    margin: 0px 5px;
+    border-radius: 3px;
+    width: 60px;
+    height: 35px;
 }
