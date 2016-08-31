@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 35px 0px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header> * {
+    vertical-align: middle;
+}
+
+header .brand {
+    color: #3E3E3E;
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header .nav-menu {
+    color: #3E3E3E;
+    width: 74%;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+}
+
+header .nav-menu ul {
+    list-style: none;
+    float: right;
+}
+
+header .nav-menu ul li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header .nav-menu ul li a {
+    text-decoration: none;
+    color: #3E3E3E;
+    transition: all 0.25s;
+}
+
+header .nav-menu ul li a:hover {
+    color: #4AC7DE;
+}
+
+header .nav-menu ul li span {
+    border-radius: 15px;
+    background: #4AC7DE;
+    padding: 7px 10px;
+    color: white;
+    font-size: 11px;
+}
+
+header .sign_in {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: lighter;
+    border: 1px solid #3E3E3E;
+}
+
+.product {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img_product {
+    width: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.main_photo {
+    position: relative;
+    width: 466.19px;
+    height: 470px;
+    overflow: hidden;
+}
+
+#main_foto {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
+}
+
+.imgs {
+    margin-top: 8px;
+    margin
+}
+
+.imgs img {
+    width: 108px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.description_product {
+    width: 47%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.description_product n {
+    float: right;
+}
+
+.description_product h2 {
+    display: inline-block;
+    color: #3E3E3E;
+}
+
+.new-button {
+    display: inline-block;
+    background: #4AC7DE;
+    padding: 4px 7px;
+    color: white;
+    font-size: 14px;
+}
+
+.sale-bitton {
+    background: #E45E5E;
+    padding: 4px 7px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.description_product hr {
+    border: none;
+    background-color: #4AC7DE;
+    height: 2px;
+    width: 30px;
+    margin: 25px 0px;
+}
+
+.productRate {
+    background: url(../img/Star-Emty.png);
+    height: 20px;
+    width: 100px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.productRate div {
+    background: url(../img/Star-Full.png);
+    width: 0;
+    height: 100%;
+    background-size: contain;
+}
+
+.description_product span {
+    border-left: 1px solid #ccc;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #E45E5E;
+    display: inline-block;
+}
+
+.description_product h3 {
+    color: #5E5E5E;
+    margin: 30px 0px;
+}
+
+.description_product p {
+    color: #5E5E5E;
+}
+
+.pop-up_list {
+    font-weight: bold;
+    margin: 25px 0px;
+    color: #5E5E5E;
+}
+
+.pop-up_list .menu {
+    padding: 5px 0px;
+    color: #5E5E5E;
+}
+
+.description_product button {
+    padding: 15px 12px;
+    background: #4AC7DE;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background: #268281;
+}
+
+button:focus {
+    outline: none;
+}
+
+.add-information {
+  color: #5E5E5E;
+  width: 100%;
+  display: inline-block;
+  text-align:center;;
+  font-size: 15px;
+  font-weight: bold;;
+  margin: 50px 0px;
+}
+.add-information ul li {
+    display: inline;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.add-information ul li a {
+    text-decoration: none;
+    color: #3E3E3E;
+    transition: all 0.25s;
+}
+
+.add-information ul li a:hover {
+    color:#E45E5E;
+    border-top: 2px solid #E45E5E;
+    height: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.add-information ul li a:active{
+    color:#E45E5E;
+    border-top: 2px solid #E45E5E;
+    height: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
