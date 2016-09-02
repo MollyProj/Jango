@@ -260,14 +260,16 @@ button:focus {
 .description {
   text-align: center;
 }
-.description p{
-  padding-top: 10px;
+.pharagraph {
+  margin-bottom: 70px;
+  padding: 10px;
     color: #5E5E5E;
 }
+
 footer {
     background-color: #545454;
     padding: 25px 0px;
-    
+
 }
 footer .rights {
     width: 40%;
