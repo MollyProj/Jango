@@ -157,12 +157,12 @@ header .sign_in {
     display: block;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 0%;
     width: 100%;
     height: auto;
-    -webkit-transform: translate(-50%, -30%);
-    -ms-transform: translate(-50%, -30%);
-    transform: translate(-50%, -30%);
+    -webkit-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
 }
 
 .imgs {
@@ -186,10 +186,6 @@ header .sign_in {
     display: inline-block;
 }
 
-.description_product .icon {
-    float: right;
-}
-
 .description_product h2 {
     display: inline-block;
     color: #3E3E3E;
@@ -201,14 +197,17 @@ header .sign_in {
     padding: 6px 9px;
     color: white;
     font-size: 14px;
+    float: right;
 }
 
-.sale-bitton {
+.sale-button {
     background: #E45E5E;
     padding: 6px 9px;
     color: white;
     font-size: 14px;
     display: inline-block;
+    margin-right: 0px;
+    float: right;
 }
 
 .description_product hr {
@@ -220,7 +219,7 @@ header .sign_in {
 }
 
 .productRate {
-    background: url(../img/Star-Emty.png);
+    background: url(../imgs/Star-Emty.png);
     height: 20px;
     width: 100px;
     background-size: contain;
@@ -228,7 +227,7 @@ header .sign_in {
 }
 
 .productRate div {
-    background: url(../img/Star-Full.png);
+    background: url(../imgs/Star-Full.png);
     width: 0;
     height: 100%;
     background-size: contain;
@@ -264,7 +263,7 @@ header .sign_in {
 }
 
 .description_product button {
-    padding: 11px 11px;
+    padding: 18px 20px;
     background: #4AC7DE;
     color: white;
     border: none;
@@ -299,21 +298,15 @@ button:focus {
     text-decoration: none;
     color: #3E3E3E;
     transition: all 0.25s;
-}
-
-.menu_add-information .line{
-  padding: 40px ;
+    padding: 0px 80px;
 }
 
 .menu_add-information .line:hover {
-    color:#E45E5E;
     border-top: 2px solid #E45E5E;
-
+    padding-top: 30px;
 }
-.menu_add-information ul li a:active{
+.menu_add-information ul li a:hover{
     color:#E45E5E;
-    border-top: 2px solid #E45E5E;
-
 }
 .description {
   text-align: center;
@@ -338,8 +331,9 @@ footer .rights {
     width: 40%;
     display: inline-block;
     color: white;
-    text-align: right;
+    text-align: left;
     vertical-align: middle;
+
 }
 footer .received {
     font-weight: normal;
@@ -356,4 +350,5 @@ footer .cards img {
     border-radius: 3px;
     width: 60px;
     height: 35px;
+    float: right;
 }
