@@ -1,0 +1,9 @@
+{
+  "World": {
+    "Sandox.wld": false,
+    "freshcode-world.wld": true
+  },
+  "Player": {
+    "db-.plr": true
+  }
+}
